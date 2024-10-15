@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Vibes Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #d2691e;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .section {
+            width: 80%;
+            max-width: 1000px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #d2691e;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .login-register input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-register button {
+            background-color: #d2691e;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social-icons a:hover {
+            color: #d2691e;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elite Vibes Studio</h1>
+</header>
+
+<nav>
+    <a href="#faq">Συχνές Ερωτήσεις</a>
+    <a href="#testimonials">Μαρτυρίες</a>
+    <a href="#blog">Ιστολόγιο</a>
+    <a href="#gallery">Γκαλερί</a>
+    <a href="#login">Σύνδεση</a>
+    <a href="#language">Γλώσσα</a>
+    <a href="#tips">Συμβουλές</a>
+</nav>
+
+<div class="content">
+
+    <section id="faq" class="section faq">
+        <h2>Συχνές Ερωτήσεις</h2>
+        <dl>
+            <dt>Πώς μπορώ να κλείσω ραντεβού;</dt>
+            <dd>Μπορείτε να χρησιμοποιήσετε τη φόρμα ραντεβού στην ιστοσελίδα μας.</dd>
+            <dt>Ποιο είναι το ωράριο λειτουργίας;</dt>
+            <dd>Δευτέρα - Παρασκευή, 9:00 - 17:00. Σάββατο, 10:00 - 14:00.</dd>
+        </dl>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+        <h2>Μαρτυρίες Πελατών</h2>
+        <div class="testimonial">"Υπέροχη εξυπηρέτηση και πολύ επαγγελματική συμπεριφορά!"</div>
+        <div class="testimonial">"Είμαι πολύ ικανοποιημένος με τα αποτελέσματα. Σας προτείνω ανεπιφύλακτα!"</div>
+    </section>
+
+    <section id="blog" class="section blog">
+        <h2>Δημοσιεύσεις Ιστολογίου</h2>
+        <div class="blog-post">Νέες συμβουλές για καλύτερο προγραμματισμό.</div>
+        <div class="blog-post">Πώς να οργανώσετε το ραντεβού σας εύκολα.</div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+        <h2>Γκαλερί Εικόνων</h2>
+        <img src="https://via.placeholder.com/300" alt="Εικόνα 1">
+        <img src="https://via.placeholder.com/300" alt="Εικόνα 2">
+        <img src="https://via.placeholder.com/300" alt="Εικόνα 3">
+    </section>
+
+    <section id="login" class="section login-register">
+        <h2>Σύνδεση / Εγγραφή</h2>
+        <form>
+            <input type="text" name="username" placeholder="Όνομα Χρήστη" required>
+            <input type="password" name="password" placeholder="Κωδικός" required>
+            <button type="submit">Σύνδεση</button>
+        </form>
+        <p>Δεν έχετε λογαριασμό; <a href="#">Εγγραφείτε εδώ</a>.</p>
+    </section>
+
+    <section id="language" class="section language-select">
+        <h2>Επιλογή Γλώσσας</h2>
+        <select>
+            <option value="el">Ελληνικά</option>
+            <option value="en">Αγγλικά</option>
+            <option value="fr">Γαλλικά</option>
+        </select>
+    </section>
+
+    <section id="tips" class="section tips">
+        <h2>Συμβουλές</h2>
+        <div class="tip">Συμβουλή: Κλείστε το ραντεβού σας εγκαίρως για να εξασφαλίσετε την προτίμησή σας στην ημερομηνία.</div>
+        <div class="tip">Συμβουλή: Επιβεβαιώστε τα στοιχεία επικοινωνίας σας πριν την αποστολή.</div>
+    </section>
+
+</div>
+
+<footer>
+    <p>Συνδέσου μαζί μας:</p>
+    <div class="social-icons">
+        <a href="#" target="_blank" title="Facebook">Facebook</a>
+        <a href="#" target="_blank" title="Twitter">Twitter</a>
+        <a href="#" target="_blank" title="LinkedIn">LinkedIn</a>
+        <a href="#" target="_blank" title="Instagram">Instagram</a>
+    </div>
+    <p>© 2023 Elite Vibes Studio. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+</footer>
+
+</body>
+</html>
